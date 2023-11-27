@@ -52,7 +52,7 @@
                     android:id="@+id/textView3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Discover You"
+                    android:text="PROYECTO DE CURSO"
                     android:textColor="@color/white"
                     android:textSize="27sp" />
 
@@ -60,7 +60,7 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Favorite Show"
+                    android:text="DESARROLLO DE APLICACIONES PARA ANDROID"
                     android:textColor="@color/orange"
                     android:textSize="27sp" />
 
@@ -68,7 +68,7 @@
                     android:id="@+id/textView5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Watch Now or Watch Later"
+                    android:text="INTEGRANTES"
                     android:textColor="@color/white"
                     android:textSize="27sp" />
 
@@ -76,7 +76,7 @@
                     android:id="@+id/textView6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="You can browse movies and shows by genre, search for specific title, or check out our recommendation for you"
+                    android:text="1. Ricardo Enrique Castro Quispilaya\n2. Ricardo Enrique Castro Quispilaya\n3. Ricardo Enrique Castro Quispilaya\n4. Ricardo Enrique Castro Quispilaya"
                     android:textColor="#9F9A9A"
                     android:textSize="17sp" />
 
@@ -87,7 +87,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:background="@drawable/orange_button"
-                    android:text="Get Started"
+                    android:text="INGRESAR"
+                    android:textStyle="bold"
                     android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
