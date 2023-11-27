@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "172962741503",
+    "project_id": "ep4-daa",
+    "storage_bucket": "ep4-daa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172962741503:android:3790efae6084a20da760ca",
+        "android_client_info": {
+          "package_name": "com.example.ep4_moviesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJWVNjQ5MVzbTMPKeKRB5Lo0AsPXbGam0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

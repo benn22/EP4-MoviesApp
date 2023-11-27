@@ -8,10 +8,12 @@ import androidx.viewpager2.widget.CompositePageTransformer;
 import androidx.viewpager2.widget.MarginPageTransformer;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 
 import com.android.volley.Request;
@@ -27,6 +29,8 @@ import com.example.ep4_moviesapp.Domain.GenresItem;
 import com.example.ep4_moviesapp.Domain.ListFilm;
 import com.example.ep4_moviesapp.Domain.SliderItems;
 import com.example.ep4_moviesapp.R;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -41,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar loading1, loading2, loading3;
     private ViewPager2 viewPager2;
     private Handler slideHandler = new Handler();
+    private ImageView logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -179,5 +184,20 @@ public class MainActivity extends AppCompatActivity {
         loading1 = findViewById(R.id.progressBar1);
         loading2 = findViewById(R.id.progressBar2);
         loading3 = findViewById(R.id.progressBar3);
+        logout = findViewById(R.id.logout);
+
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
+                FirebaseUser currentUser = firebaseAuth.getCurrentUser();
+
+                if (currentUser != null){
+                    firebaseAuth.signOut();
+                    startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                    finish();
+                }
+            }
+        });
     }
 }

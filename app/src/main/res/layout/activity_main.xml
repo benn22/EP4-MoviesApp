@@ -276,19 +276,19 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/logout"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_gravity="center"
                         android:layout_margin="5dp"
-                        android:src="@drawable/btn_4"
+                        android:src="@drawable/back"
                         app:tint="@color/white" />
 
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Perfil"
+                        android:text="Salir"
                         android:textAlignment="center"
                         android:textColor="@color/white" />
                 </LinearLayout>
