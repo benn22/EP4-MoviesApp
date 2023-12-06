@@ -7,7 +7,7 @@
     android:background="@color/main_color"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context=".Activities.RegisterActivity">
+    tools:context="apps.isil.ep4_moviesapp.Activities.RegisterActivity">
 
     <ScrollView
         android:id="@+id/scrollView3"

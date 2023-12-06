@@ -8,11 +8,13 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.ep4_moviesapp"
-        minSdk 19
+        applicationId "apps.isil.ep4_moviesapp"
+        minSdk 21
         targetSdk 33
         versionCode 1
         versionName "1.0"
+
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
