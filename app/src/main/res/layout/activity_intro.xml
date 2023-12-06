@@ -76,7 +76,7 @@
                     android:id="@+id/textView6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1. Ricardo Enrique Castro Quispilaya\n2. Ricardo Enrique Castro Quispilaya\n3. Ricardo Enrique Castro Quispilaya\n4. Ricardo Enrique Castro Quispilaya"
+                    android:text="1. Ricardo Enrique Castro Quispilaya\n2. Jose Alejandro Paduro Carpio\n3. Josue Ismael Angulo Lopez\n4. Miguel Galvez"
                     android:textColor="#9F9A9A"
                     android:textSize="17sp" />
 
